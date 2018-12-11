@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Default suite]" parallel="methods">
+  <test thread-count="5" verbose="3" name=" First test(failed)" parallel="methods">
+    <classes>
+      <class name="com.codelabs.examples.selenium.tests.TC_WikipediaSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- com.codelabs.examples.selenium.tests.TC_WikipediaSearchTest -->
+    </classes>
+  </test> <!--  First test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
